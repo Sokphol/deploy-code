@@ -1,0 +1,7 @@
+2024-08-21T08:10:51.868Z   +437ms [debug] Config loaded {"version":"3.0.0","cdkVersion":"2.95.1","constructsVersion":"10.2.69","config":{"name":"my-app","region":"us-east-1","stage":"prod","ssmPrefix":"/sst/my-app/prod/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":208,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1724227851444.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":121}},"bytes":303}}},"paths":{"config":"C:\\Users\\SokPhol\\Desktop\\AwsNext\\app-deploy\\sst.config.ts","root":"C:\\Users\\SokPhol\\Desktop\\AwsNext\\app-deploy","out":"C:\\Users\\SokPhol\\Desktop\\AwsNext\\app-deploy\\.sst","artifacts":"C:\\Users\\SokPhol\\Desktop\\AwsNext\\app-deploy\\.sst\\artifacts"}}
+2024-08-21T08:10:53.173Z  +1305ms [debug] Using AWS profile 
+2024-08-21T08:10:53.177Z     +4ms [debug] Created AWS client STSClient
+2024-08-21T08:10:53.178Z     +1ms [debug] Fetching app metadata
+2024-08-21T08:10:53.179Z     +1ms [debug] Initializing bootstrap context
+2024-08-21T08:10:53.179Z     +0ms [debug] Created AWS client CloudFormationClient
+2024-08-21T08:10:54.504Z  +1325ms [debug] {"code":"ERR_INVALID_CHAR","$metadata":{"attempts":1,"totalRetryDelay":0}}
